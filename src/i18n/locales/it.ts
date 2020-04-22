@@ -20,7 +20,7 @@ export class it implements Locale {
   }
 
   anErrorOccuredWhenGeneratingTheExpressionD() {
-    return "È verificato un errore durante la generazione la descrizione espressione. Controllare la sintassi delle espressioni cron.";
+    return "Si è verificato un errore durante la generazione la descrizione espressione. Controllare la sintassi delle espressioni cron.";
   }
   at() {
     return "Alle";
@@ -32,16 +32,16 @@ export class it implements Locale {
     return "alle %s";
   }
   atX0MinutesPastTheHour() {
-    return "al %s minuto passata l'ora";
+    return "al minuto %s passata l'ora";
   }
   atX0SecondsPastTheMinute() {
-    return "al %s secondo passato il minuto";
+    return "al secondo %s passato il minuto";
   }
   betweenX0AndX1() {
     return "tra le %s e le %s";
   }
   commaBetweenDayX0AndX1OfTheMonth() {
-    return ", tra il giorno %s e %s del mese";
+    return ", tra i giorni %s e %s del mese";
   }
   commaEveryDay() {
     return ", ogni giorno";
@@ -125,13 +125,13 @@ export class it implements Locale {
     return "quarto";
   }
   minutesX0ThroughX1PastTheHour() {
-    return "minuti %s al %s dopo l'ora";
+    return "minuti da %s a %s dopo l'ora";
   }
   second() {
     return "secondo";
   }
   secondsX0ThroughX1PastTheMinute() {
-    return "secondi %s al %s oltre il minuto";
+    return "secondi da %s a %s dopo il minuto";
   }
   spaceAnd() {
     return " e";
@@ -146,10 +146,10 @@ export class it implements Locale {
     return "terzo";
   }
   weekdayNearestDayX0() {
-    return "giorno della settimana più vicino al %s";
+    return "giorno feriale più vicino al %s";
   }
   commaStartingX0() {
-    return ", a partire %s";
+    return ", a partire da %s";
   }
   daysOfTheWeek() {
     return ["domenica", "lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato"];
